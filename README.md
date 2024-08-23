@@ -6,8 +6,12 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 202308507702  |  Daniel Maffezzoli |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202307300349  |  Kaio Alves            |
+| 202308507702  |  Daniel Maffezzoli     |
+|               |  Gabriel Miller        |
+|               |  Lucas Goulart         |
+|               |  João Pedro Pingarilho |
+
 
 ## Sobre 
 Vamos desenvolver uma plataforma de streaming corporativo para visualização de aúdio e vídeo, usando as tecnologias como Django, JS, html, css e outros. 
