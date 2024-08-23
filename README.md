@@ -17,10 +17,6 @@
 
 Estamos desenvolvendo uma plataforma de streaming voltada para e-learning, que permitirá a visualização de vídeos educativos e o acesso a conteúdo didático de forma interativa. A plataforma será construída utilizando as seguintes tecnologias: Django para o backend, JavaScript, HTML, CSS para o frontend, além de outras ferramentas conforme necessário.
 
-# A fazer
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
-
 ## Instalação 
 
 Linguagens: Python (Django), JavaScript, HTML, CSS
@@ -33,14 +29,17 @@ Django
 MySQL
 Node.js
 
-# A fazer
+
+# A fazer (Abaixo)
+
+## Screenshots
+Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-# A fazer
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto final.
 
-# A fazer
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
