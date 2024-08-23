@@ -8,17 +8,17 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 
 # NomedoProjeto
 
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 1<br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202308507702  |  Daniel Maffezzoli |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Vamos desenvolver uma plataforma de streaming corporativo para visualização de aúdio e vídeo, usando as tecnologias como Django, JS, html, css e outros. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
