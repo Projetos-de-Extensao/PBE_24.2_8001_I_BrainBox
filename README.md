@@ -20,13 +20,13 @@ Estamos desenvolvendo uma plataforma de streaming voltada para e-learning, que p
 ## Instalação 
 
 Linguagens: Python (Django), JavaScript, HTML, CSS
-Tecnologias: Django, MySQL, Node.js, Nginx (opcional para produção)
+Tecnologias: Django, SQLlite, Node.js, Nginx (opcional para produção)
 
 Para rodar o projeto, certifique-se de ter as seguintes dependências instaladas:
 
 Python 12.0
 Django
-MySQL
+SQLlite
 Node.js
 
 
