@@ -21,8 +21,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ### Mapa mental 1
  
-[![Mapa mental Entrevista](../assets/Mapas_mentais/....png)](../assets/Mapas_mentais/...png)
- 
+[![Mapa mental Entrevista](../assets/MapasMentais/MapaMental_1.png)](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_I_BrainBox/blob/main/docs/assets/MapasMentais/MapaMental_1.png) 
  
 ### Mapa mental 2
  
