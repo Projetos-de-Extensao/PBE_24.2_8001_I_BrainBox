@@ -22,97 +22,74 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>O que é?</b> - É uma plataforma de E-Learning focada em conteúdo tech.
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece...
+<b>Objetivo da plataforma</b> - O objetivo da aplicação é o compartilhamento de conteúdo tech de qualidade para quaisquers interessados.
  
-<b>YYYY</b> - O objetivo da aplicação é....
- 
-<b>WWWW</b> - O principal objetivo da aplicação é a...
- 
-<b>KKKK</b> - A plataforma deve gerenciar...
 </p>
  
 ---
  
-### 2. Como será o processo para cadastrar um novo clientetorneio?
+### 2. Como será o processo para cadastrar um novo cliente?
  
 <p align = "justify">
-<b>XXXX</b> - O moderador deverá fazer login e...
+<b>Passo 1</b> - O usuário será redirecionado para a página de registro.
  
-<b>YYYY</b> - O cliente...
+<b>Passo 2</b> - O usuário terá a opção de fazer o registro social (Gmail, Github, etc) ou cadastrar seus dados manualmente.
  
-<b>WWWW</b> - Com o usuário logado, ele deverá...
-
-<b>ZZZZ</b> - O cliente...
- 
-<b>KKK</b> - O cliente...
+<b>Passo 3</b> - O usuário receberá um código em seu email, e após a confirmação, sua conta será criada.
  
 ---
  
-### 3. Como será a forma de adicionar produtos?
+## 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
-<b>XXXX</b> - O cliente ao cadastrar...
+ 
+### Vídeos e Aúdios
+<b>Passo 1</b> - O usuário deverá logar com uma conta "admin".
 </p>
  
 <p align = "justify">
-<b>YYYYY</b> - O produto tem...
+<b>Passo 2</b> - O usuário deve acessar a página dedicada a postagem de conteúdos, informar o tipo (mp3, mp4), thumbnail, título, descrição, categoria, série ou vídeo único, entre outras informações.
 </p>
- 
-<b>ZZZZ</b> - O produto....
- 
-<b>XXXX</b> - O produto....
 
+### Fóruns
+ <b>Passo 1</b> - O usuário deverá logar com uma conta qualquer.
+</p>
+ 
+<p align = "justify">
+<b>Passo 2</b> - O usuário deve acessar a página dedicada a a criação e gerenciamento de fóruns, informar o título, descrição, assunto, entre outras informações.
+</p>
  
 ---
  
-### 4. Outras perguntas pertinentes ao contexto
-
+### 4. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
 <p align = "justify">
-<b>XXXX</b> - Com a localização...
- 
-<b>YYYY</b> - O cliente...
- 
-<b>ZZZ</b> - O cliente...
- 
----
- 
-### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
-<p align = "justify">
-<b>XXX</b> - O cliente....
+<b>Adição de Vídeos/Aúdios</b> - O usuário não terá a opção de adicionar produtos, apenas de visualizar, a adição de conteúdos é exclusiva por parte dos administradores.
+ <b>Criação de Fóruns</b> - O usuário terá a sua disposição uma aba destinada a criação/visualização e gerenciamento dos Fóruns.
 </p>
  
-### 6. Quais informações seriam interessante para o cliente?
+### 5. Quais informações seriam interessante para o cliente?
 <p align = "justify">
-   <b>XXX</b> - Informações...
-   
-   <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
-
-   <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
-   
+   <b>Fóruns</b> - O usuário poderá criar e gerenciar seus próprios fóruns.
+   <b>Roadmap</b> - O usuário poderá organizar um "caminho" de aulas a serem vistas para alcançar seus objetivos.   
 </p>
  
 ### Requisitos elicitados
  
 |ID|Descrição|
 |----|-------------|
-|BS01| O cliente...|
-|BS02| O cliente...|
-|BS03| O cliente...|
-|BS04| O cliente...|
-|BS05| O cliente...|
-|BS06| O cliente...|
-|BS07| O cliente...|
-|BS08| O cliente...|
-|BS09| O cliente...|
-|BS10| O produto...|
-|BS11| O produto...|
-|BS12| O produto...|
-|BS13| O produto...|
-|BS14| O produto...|
-|BS15| O produto...|
+|BS01| O cliente deve poder se registrar manualmente ou com registro social|
+|BS02| Todo cadastro deverá contar com o envio de um email de confirmação, para autenticar esse, e enviar dados concisos ao banco de dados|
+|BS03| O cliente poder logar manualmente ou com login social|
+|BS04| O cliente deve poder usar a aplicação em qualquer dispositivo (responsividade)|
+|BS05| O cliente deve ser capaz de interagir com os vídeos/aúdios/fóruns da plataforma, comentando, avaliando ou adicionando ao seu Roadmap no caso de vídeos e aúdios|
+|BS06| O cliente deve ser capaz de criar seus próprios fóruns|
+|BS07| O cliente deve ser capaz de filtrar os conteúdos do site, por categoria, linguagens de programação, data de postagem, avaliações ou busca especifica(Ex: aula de python)|
+|BS08| O cliente deve ser capaz de receber notificações sobre novos conteúdos da plataforma, caso o mesmo tenha ativado essa configuração|
+|BS09| O cliente deve ser capaz de gerenciar o seu perfil, descrição, foto de perfil, preferências, etc|
+|BS10| O administrador deve ser capaz de postar novos vídeos e aúdios com suas respectivas categorias, títulos, descrição, etc|
  
 ## Conclusão
 <p align = "justify">
