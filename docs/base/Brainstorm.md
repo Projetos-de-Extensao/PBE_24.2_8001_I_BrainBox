@@ -64,7 +64,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 ---
  
-### 4. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
+### 4.Como seria a forma de o cliente adicionar os produtos ?
 <p align = "justify">
 <b>Adição de Vídeos/Aúdios</b> - O usuário não terá a opção de adicionar produtos, apenas de visualizar, a adição de conteúdos é exclusiva por parte dos administradores.
  <b>Criação de Fóruns</b> - O usuário terá a sua disposição uma aba destinada a criação/visualização e gerenciamento dos Fóruns.
@@ -73,6 +73,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 5. Quais informações seriam interessante para o cliente?
 <p align = "justify">
    <b>Fóruns</b> - O usuário poderá criar e gerenciar seus próprios fóruns.
+</p>
+<p align = "justify">
    <b>Roadmap</b> - O usuário poderá organizar um "caminho" de aulas a serem vistas para alcançar seus objetivos.   
 </p>
  
