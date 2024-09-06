@@ -1,7 +1,6 @@
-# NomedoProjeto
+# BrainBox
 
-**Número do Grupo**: 1<br>
-**Código da Disciplina**: FGA0208-T01<br>
+**Número do Grupo**: I<br>
 
 ## Alunos
 |Matrícula | Aluno |
