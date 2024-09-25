@@ -12,6 +12,7 @@
 | 202203424742  |  João Pedro Pingarilho |
 
 
+
 ## Sobre
 
 Estamos desenvolvendo uma plataforma de streaming voltada para e-learning, que permitirá a visualização de vídeos educativos e o acesso a conteúdo didático de forma interativa. A plataforma será construída utilizando as seguintes tecnologias: Django para o backend, JavaScript, HTML, CSS para o frontend, além de outras ferramentas conforme necessário.
