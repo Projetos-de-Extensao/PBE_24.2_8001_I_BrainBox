@@ -1,92 +1,59 @@
+Nosso foco é saber em que skill level você se encontra. Em nossa plataforma, você terá acesso a todos os níveis de dificuldade.
+
+1. **Como você implementaria o sistema de cadastro de usuários? Quais medidas de segurança você consideraria?**
+2. **Você já usou um site de cursos de programação? Se sim, o que você não gostou?**
+3. **Quais critérios você usaria para organizar e filtrar os cursos no catálogo? Como você garantiria que a navegação fosse intuitiva?**
+4. **Que formato de conteúdo você acha que é mais eficaz para ensinar programação? Você incluiria recursos interativos?**
+5. **Como você lidaria com a coleta e exibição das avaliações dos cursos? Que tipo de métricas você usaria para medir a qualidade?**
+6. **Quais informações você incluiria nos certificados de conclusão e como você garantiria sua autenticidade?**
+7. **O que você considera essencial em um painel do aluno? Como você personalizaria a experiência com base no progresso do usuário?**
+8. **Como você abordaria a questão do desempenho do site, especialmente em horários de pico?**
+
 ---
-id: entrevista
-title: Entrevista
+
+### Participantes
+
+| NOME  | PAPEL         |
+|-------|---------------|
+| Joao  | Entrevistador |
+| Maria | Entrevistado  |
+| Wesley| Entrevistado  |
+| Bruno | Entrevistado  |
+
 ---
 
-## Introdução
-<p align = "justify">
-A técnica da entrevista trata-se de uma conversa guiada por um roteiro de perguntas ou tópicos, na qual visa questionar o stakeholders sobre o sistema atual e esclarecer as suas necessidades sobre o sistema que será desenvolvido. A entrevista permite investigação em profundidade sobre um problema, dessa forma coletar uma grande quantidade de informações para o sistema.
-</p>
+### Sessões
 
-## Metodologia
-<p align = "justify">
-Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde terá uma série de perguntas de apoio pré-definidas com finalidade do stakeholders expor informações importantes para o sistema. As questões são formuladas e filtradas, de acordo com o interesse da equipe com o propósito de orientar o entrevistador durante a entrevista. O entrevistador e entrevistado tem liberdade para abordar qualquer assunto relacionado ao sistema durante a entrevista.
-</p>
+| DATA       | HORÁRIO INICIAL | HORÁRIO DE CONCLUSÃO | DESCRIÇÃO    |
+|------------|-----------------|----------------------|--------------|
+| 05/09/2024 | 10:45           | 11:00                | Via Whatsapp |
+| 10/09/2024 | 20:20           | 20:30                | Via Meet     |
+| 12/09/2024 | 08:00           | 08:15                | Via Ligação  |
 
-### Roteiro
+---
 
-- Você.... ?
-- Como funcionava.... ?
-- Você já usou alguma aplicação.... 
-- Teve algum problema.... ?
-- O que você acha de uma aplicação..... ?
-- Para você qual seria o sistema ideal.... ?
-- Você gostaria de poder se cadastrar..... 
-- você gostaria que as informações... 
+### Diálogos Durante a Apresentação dos Projetos
 
+| NOME DO PARTICIPANTE | DIÁLOGO                                       |
+|----------------------|------------------------------------------------|
+| Maria                | Eu prefiro utilizar um app                    |
+| Wesley               | Gostaria que tivesse um guia, para me ajudar durante o processo inicial no app |
+| Bruno                | Acho que um lugar onde mostrasse os níveis de dificuldade, linguagem e duração  |
 
-## Entrevistas 
+---
 
-### Versão 1.0
+### Requisitos
 
-### **Entrevista 1**
+| REQUISITOS | DESCRIÇÃO                                        |
+|------------|--------------------------------------------------|
+| R01        | Opção de login social (Google, Facebook)         |
+| R02        | Listar todos os cursos disponíveis com filtros (por linguagem, nível, duração) |
+| R03        | Módulos e aulas organizados de forma intuitiva   |
+| R04        | Comentários e feedback dos alunos                |
+| R05        | Geração de certificados após a conclusão do curso|
+| R06        | Canal de suporte para dúvidas                    |
+| R07        | Local de comunicação dos alunos                  |
 
-<br>
+---
 
-|Nome | Papel |
------|------|
-|xxxx Pedro| Entrevistador|
-|xxxx xxxx| Entrevistado|
-
-<br>
-<br>
-
-|Data|Horário de inicio|Horário de fim |Descrição
-----|-----|-----|---------|
-|03/09/20 | 12:11| 12:38 | Entrevista realizada via hangouts.|
-
-<br>
-<br>
- 
-|Nome do participante|Diálogo durante a apresentação dos projetos|
-|----|-------------|
-|XXX XXXX:|Você... |
-|XXX XXXX:|Sim.... |
-|XXX XXXX:|Como... |
-|XXXX XXXX:|Já...  |
-
-<br>
- 
-### Requisitos elicitados
- 
-|ID|Descrição|
-|----|-------------|
-|REQ01|O ...|
-|REQ02|O ...|
-|REQ03|O ...|
-|REQ04|O ...|
-|REQ05|O ...|
-|REQ06|O ...|
-|REQ07|O ...|
-|REQ08|O ...|
-|REQ09|O ...|
-|REQ10|O ...|
-
-
-## Conclusão
-<p align = "justify">
 Através da aplicação da técnica, foi possível elicitar alguns requisitos importantes para o projeto.
-</p>
- 
-## Referências
-
->
-> 
-
-## Autor(es)
-
-| Data | Versão | Descrição | Autor(es) |
-| -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | xxx XXXX |
-| DD/MM/YYYY | 2.0 | Adição da entrevista 1 | XXX XXXX | 
-| DD/MM/YYYY | 2.1 | Adição dos requisitos elicitados e conclusão | XXXX XXXXX | 
