@@ -1,4 +1,4 @@
-Nosso foco é saber em que skill level você se encontra. Em nossa plataforma, você terá acesso a todos os níveis de dificuldade.
+# Nosso foco é saber em que skill level você se encontra. Em nossa plataforma, você terá acesso a todos os níveis de dificuldade.
 
 1. **Como você implementaria o sistema de cadastro de usuários? Quais medidas de segurança você consideraria?**
 2. **Você já usou um site de cursos de programação? Se sim, o que você não gostou?**
@@ -19,6 +19,7 @@ Nosso foco é saber em que skill level você se encontra. Em nossa plataforma, v
 | Maria | Entrevistado  |
 | Wesley| Entrevistado  |
 | Bruno | Entrevistado  |
+
 
 ---
 
@@ -57,3 +58,5 @@ Nosso foco é saber em que skill level você se encontra. Em nossa plataforma, v
 ---
 
 Através da aplicação da técnica, foi possível elicitar alguns requisitos importantes para o projeto.
+
+
