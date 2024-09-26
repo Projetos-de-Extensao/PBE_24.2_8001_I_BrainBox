@@ -21,22 +21,22 @@ Iniciamos o projeto através dos levantamentos iniciais da equipe, após discuss
 ### Versão 1.0
  
 ### Tela Home
-[![Prototipo 1](../assets/Protótipo/Figma1.png)](../assets/prototipo/prototipo_1.png)
+[![Prototipo 1](../assets/Protótipo/Figma1.png)](../assets/Protótipo/Figma1.png)
  
 ### Tela Cadastro 1
  
-[![Prototipo 2](../assets/Protótipo/Figma 2.png)](../assets/prototipo/prototipo_2.png)
+[![Prototipo 2](../assets/Protótipo/Figma 2.png)](../assets/Protótipo/Figma 2.png)
  
 ### Tela Cadastro 2
  
-[![Prototipo 3](../assets/Protótipo/Figma 3.png)](../assets/prototipo/prototipo_3.png)
+[![Prototipo 3](../assets/Protótipo/Figma 3.png)](../assets/Protótipo/Figma 3.png)
  
 ### Tela Sobre Nós
  
-[![Prototipo 4](../assets/Protótipo/Figma 4.png)](../assets/prototipo/prototipo_4.png)
+[![Prototipo 4](../assets/Protótipo/Figma 4.png)](../assets/Protótipo/Figma 4.png)
  
 ### Tela do Cursos
-[![Prototipo 5](../assets/Protótipo/Figma 5.png)](../assets/prototipo/prototipo_5.png)
+[![Prototipo 5](../assets/Protótipo/Figma 5.png)](../assets/Protótipo/Figma 5.png)
  
 
 <p align = "justify">
