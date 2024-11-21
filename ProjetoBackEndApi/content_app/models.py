@@ -14,21 +14,22 @@ class Member(models.Model):
     convites_aceitos = models.IntegerField(default=0)
 
     def enviar_convite(self, email_destinatario):
-        if self.n_convites >= 5:
+        if self.convites_qtd >= 5:
             raise ValueError("Limite de convites mensais atingido.")
-        convite = Convite.objects.create(userRemetente=self, userDestinatario=email_destinatario)
-        self.convites_enviados.add(convite)
-        self.save()
-        return convite
+        else:
+            convite = Convite.objects.create(userRemetente=self, userDestinatario=email_destinatario)
+            self.convites_enviados.add(convite)
+            self.save()
+            return convite
 
-    def contar_convites_mes_atual(self):
+    def conta_convites(self):
         agora = timezone.now()
         inicio_mes = agora.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
         return self.convites_enviados.filter(data_envio__gte=inicio_mes).count()
     
     @property
-    def n_convites(self):
-        return self.contar_convites_mes_atual()
+    def convites_qtd(self):
+        return self.conta_convites()
 
     def verificar_convites_aceitos(self):
         convites_aceitos = self.convites_enviados.filter(status='Aceito').count()
@@ -48,14 +49,14 @@ class Member(models.Model):
 
 class Convite(models.Model):
     STATUS_CHOICES = [
-        ('Pendente', 'Pendente'),
+        ('Aguardando', 'Aguardando'),
         ('Aceito', 'Aceito'),
         ('Expirado', 'Expirado'),
     ]
     userRemetente = models.ForeignKey(Member, related_name='convites_enviados', on_delete=models.CASCADE)
     userDestinatario = models.EmailField(unique=True)
     link = models.CharField(blank=True, max_length=255, unique=True)
-    status = models.CharField(max_length=50, choices=STATUS_CHOICES, default='Pendente')
+    status = models.CharField(max_length=50, choices=STATUS_CHOICES, default='Aguardando')
     data_envio = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -65,11 +66,11 @@ class Convite(models.Model):
         if not self.link:
             self.link = str(uuid.uuid4())
         self.data_envio = timezone.now().astimezone(pytz.timezone('America/Sao_Paulo'))
-        self.is_expirado()
+        self.expirado()
         super().save(*args, **kwargs)
         self.userRemetente.verificar_convites_aceitos()
 
-    def is_expirado(self):
+    def expirado(self):
         validade = self.data_envio + timedelta(days=7)
         if timezone.now() > validade:
             self.status = 'Expirado'
@@ -81,7 +82,6 @@ class Convite(models.Model):
 class Feedback(models.Model):
     TIPO_CHOICES = [
         ('Comentários gerais', 'Comentários gerais'),
-        ('Sugestões de melhoria', 'Sugestões de melhoria'),
         ('Problemas tecnicos', 'Problemas tecnicos'),
     ]
     member = models.ForeignKey(Member, on_delete=models.CASCADE, related_name='feedback')
