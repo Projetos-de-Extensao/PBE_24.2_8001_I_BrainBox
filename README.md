@@ -46,4 +46,4 @@ Adicione 1 ou mais vídeos com a execução do projeto final.
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 ## Apresentação
-link - https://gamma.app/docs/BrainBox-5s0ofxumnfrwa5n?mode=doc
+link - https://www.canva.com/design/DAGXJSsRaCA/J2ZyJAWVl_O_8jwuxrMUww/edit?utm_content=DAGXJSsRaCA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
