@@ -1,0 +1,55 @@
+@startuml
+
+class Usuario {
+    + id: int
+    + nome: String
+    + email: String
+    + senha: String
+    + convitesEnviados: List<Convite>
+    + convidados: List<Usuario>
+
+    /Métodos
+    + gerarLinkConvite(): Convite
+    + autenticar(): Boolean
+}
+
+class Convite {
+    + id: int
+    + link: String
+    + dataEnvio: Date
+    + dataExpiracao: Date
+    + estado: String
+    + usuarioConvidante: Usuario
+    + usuarioConvidado: Usuario
+
+    /Métodos
+    + verificarValidade(): Boolean
+    + vincularConvidado(usuario: Usuario)
+}
+
+class Cadastro {
+    + id: int
+    + usuario: Usuario
+    + conviteUsado: Convite
+
+    /Métodos
+    + validarConvite(): Boolean
+    + registrarUsuario(): Boolean
+}
+
+class SistemaConvite {
+    + limiteConvites: int
+
+    /Métodos
+    + gerarConvite(usuario: Usuario): Convite
+    + validarConvite(convite: Convite): Boolean
+    + controlarLimite(): Boolean
+}
+
+// Relacionamentos
+Usuario "1" --> "envia" Convite
+Convite "utiliza" --> Cadastro
+Cadastro <|-- Usuario
+SistemaConvite --|> Cadastro
+
+@enduml
